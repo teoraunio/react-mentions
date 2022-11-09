@@ -1,6 +1,10 @@
 import React from 'react'
 import useStyles from 'substyle'
 
+const defaultStyle = {
+  fontWeight: 'inherit',
+}
+
 function LoadingIndicator({ style, className, classNames }) {
   const styles = useStyles(defaultstyle, { style, className, classNames })
   const spinnerStyles = styles('spinner')
@@ -16,7 +20,5 @@ function LoadingIndicator({ style, className, classNames }) {
     </div>
   )
 }
-
-const defaultstyle = {}
 
 export default LoadingIndicator

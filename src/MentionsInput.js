@@ -346,6 +346,7 @@ class MentionsInput extends React.Component {
   }
 
   handlePaste(event) {
+    return true;
     if (event.target !== this.inputElement) {
       return
     }
