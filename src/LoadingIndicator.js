@@ -6,7 +6,7 @@ const defaultStyle = {
 }
 
 function LoadingIndicator({ style, className, classNames }) {
-  const styles = useStyles(defaultstyle, { style, className, classNames })
+  const styles = useStyles(defaultStyle, { style, className, classNames })
   const spinnerStyles = styles('spinner')
   return (
     <div {...styles}>
