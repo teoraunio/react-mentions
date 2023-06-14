@@ -1,5 +1,11 @@
 # react-mentions
 
+## 0.0.6
+
+### Patch Changes
+
+- 1dade35: small fixes
+
 ## 4.4.9
 
 ### Patch Changes
